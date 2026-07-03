@@ -1,5 +1,7 @@
 package net.defish.miscmism;
 
+import net.defish.miscmism.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -32,6 +34,8 @@ public class MiscMism
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -44,7 +48,9 @@ public class MiscMism
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+    event.accept(ModItems.JADETRIANGLE);
+}
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
