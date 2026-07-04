@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "miscellaneouslymismatched:block/stormslate_block"
+  }
+}

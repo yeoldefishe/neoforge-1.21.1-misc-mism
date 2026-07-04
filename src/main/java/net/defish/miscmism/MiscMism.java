@@ -1,5 +1,6 @@
 package net.defish.miscmism;
 
+import net.defish.miscmism.block.ModBlocks;
 import net.defish.miscmism.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -35,6 +36,8 @@ public class MiscMism
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -50,7 +53,13 @@ public class MiscMism
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
     event.accept(ModItems.JADETRIANGLE);
-}
+    event.accept(ModItems.JADE);
+    }
+
+    if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+        event.accept(ModBlocks.STORMSLATE_BLOCK);
+    }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
