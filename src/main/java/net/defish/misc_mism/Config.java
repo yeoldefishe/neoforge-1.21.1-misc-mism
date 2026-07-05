@@ -1,4 +1,4 @@
-package net.defish.miscmism;
+package net.defish.misc_mism;
 
 import java.util.List;
 

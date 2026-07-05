@@ -1,10 +1,9 @@
-package net.defish.miscmism.block;
+package net.defish.misc_mism.block;
 
-import net.defish.miscmism.MiscMism;
-import net.defish.miscmism.item.ModItems;
+import net.defish.misc_mism.MiscMism;
+import net.defish.misc_mism.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;

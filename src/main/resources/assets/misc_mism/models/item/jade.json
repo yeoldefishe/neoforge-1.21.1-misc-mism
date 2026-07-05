@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "miscellaneouslymismatched:item/jade_triangle"
+    "layer0": "misc_mism:item/jade"
   }
 }

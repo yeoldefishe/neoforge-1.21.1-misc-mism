@@ -1,7 +1,7 @@
-package net.defish.miscmism;
+package net.defish.misc_mism;
 
-import net.defish.miscmism.block.ModBlocks;
-import net.defish.miscmism.item.ModItems;
+import net.defish.misc_mism.block.ModBlocks;
+import net.defish.misc_mism.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -21,7 +21,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(MiscMism.MOD_ID)
 public class MiscMism
 {
-    public static final String MOD_ID = "miscellaneouslymismatched";
+    public static final String MOD_ID = "misc_mism";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.

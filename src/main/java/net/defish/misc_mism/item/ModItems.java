@@ -1,6 +1,6 @@
-package net.defish.miscmism.item;
+package net.defish.misc_mism.item;
 
-import net.defish.miscmism.MiscMism;
+import net.defish.misc_mism.MiscMism;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;

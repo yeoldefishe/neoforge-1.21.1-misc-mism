@@ -1,4 +1,4 @@
-package net.defish.miscmism;
+package net.defish.misc_mism;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
