@@ -51,13 +51,17 @@ public class MiscMism
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+    if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
     event.accept(ModItems.JADETRIANGLE);
     event.accept(ModItems.JADE);
     }
 
     if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
         event.accept(ModBlocks.STORMSLATE_BLOCK);
+    }
+
+    if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        event.accept(ModBlocks.BLOCK_MISSING);
     }
 
     }

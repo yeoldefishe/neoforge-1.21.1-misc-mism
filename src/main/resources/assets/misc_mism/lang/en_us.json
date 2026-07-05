@@ -2,5 +2,7 @@
   "item.misc_mism.jade_triangle": "Odd Jade",
   "item.mism_mism.jade": "Jade",
 
-  "block.misc_mism.stormslate_block": "Stormslate"
+  "block.misc_mism.stormslate_block": "Stormslate",
+  "block.misc_mism.block_missing": "Block_Missing"
+
 }

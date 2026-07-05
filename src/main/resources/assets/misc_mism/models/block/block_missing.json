@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "misc_mism:block/block_missing",
+    "north": "misc_mism:block/block_missing_flipped",
+    "south": "misc_mism:block/block_missing_flipped"
+  }
+}
