@@ -1,8 +1,10 @@
 {
   "item.misc_mism.jade_triangle": "Odd Jade",
-  "item.mism_mism.jade": "Jade",
+  "item.misc_mism.jade": "Jade",
+  "item.misc_mism.stormsteel": "Stormsteel",
 
   "block.misc_mism.stormslate_block": "Stormslate",
-  "block.misc_mism.block_missing": "Block_Missing"
+  "block.misc_mism.block_missing": "Block_Missing",
+  "block.misc_mism.stormsteel_ore": "Stormsteel Ore"
 
 }

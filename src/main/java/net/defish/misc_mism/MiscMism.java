@@ -54,10 +54,12 @@ public class MiscMism
     if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
     event.accept(ModItems.JADETRIANGLE);
     event.accept(ModItems.JADE);
+    event.accept(ModItems.STORMSTEEL);
     }
 
     if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
         event.accept(ModBlocks.STORMSLATE_BLOCK);
+        event.accept(ModBlocks.STORMSTEEL_ORE);
     }
 
     if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

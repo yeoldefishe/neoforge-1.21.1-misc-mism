@@ -25,6 +25,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.LODESTONE)));
 
+    public static final DeferredBlock<Block> STORMSTEEL_ORE = registerblock("stormsteel_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
 
 
 
