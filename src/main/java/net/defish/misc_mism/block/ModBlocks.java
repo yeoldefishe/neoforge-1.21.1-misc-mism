@@ -2,9 +2,11 @@ package net.defish.misc_mism.block;
 
 import net.defish.misc_mism.MiscMism;
 import net.defish.misc_mism.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -26,9 +28,9 @@ public class ModBlocks {
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.LODESTONE)));
 
     public static final DeferredBlock<Block> STORMSTEEL_ORE = registerblock("stormsteel_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-
+            () -> new DropExperienceBlock(UniformInt.of(3, 6),
+                    BlockBehaviour.Properties.of()
+                            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
 
 

@@ -57,6 +57,10 @@ public class MiscMism
     event.accept(ModItems.STORMSTEEL);
     }
 
+    if(event.getTabKey() ==CreativeModeTabs.FOOD_AND_DRINKS) {
+        event.accept(ModItems.GARLIC);
+    }
+
     if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
         event.accept(ModBlocks.STORMSLATE_BLOCK);
         event.accept(ModBlocks.STORMSTEEL_ORE);
